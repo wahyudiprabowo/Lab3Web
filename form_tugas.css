@@ -1,0 +1,49 @@
+
+body {
+	background-image: url("wall.png");
+	font-family: "Times New Roman", Times, serif;
+}
+.menu {
+    display: block;
+    background: linear-gradient(to bottom, #0066ff 0%, #99ccff 100%);
+    height:46px;
+}
+
+#navigasi ul {
+    position:absolute;
+    display:none;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+#navigasi {
+    position:relative;
+    line-height:30px;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    list-style-position:outside;
+}
+
+#navigasi li:hover ul{
+    display:block;
+}
+#navigasi li ul a{
+    width:13em;
+    height:auto;
+}
+#navigasi a {
+    display:block;
+    padding:8px 16px;
+    background: linear-gradient(to bottom, #0066ff 0%, #99ccff 100%);
+    color:rgb(14, 0, 0);
+    text-decoration:none;
+}
+#navigasi a:hover {
+    background:#f9e5a8;
+    }
+#navigasi li {
+    position:relative;
+    float:left;
+}
+
